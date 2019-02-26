@@ -1,0 +1,5 @@
+ck_editor:
+    resource: "@CKEditorBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

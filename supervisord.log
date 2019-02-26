@@ -1,0 +1,249 @@
+2017-05-11 07:30:11,420 CRIT Supervisor running as root (no user in config file)
+2017-05-11 07:30:11,420 WARN Included extra file "/etc/supervisor/conf.d/zs-ehl.conf" during parsing
+2017-05-11 07:30:11,421 WARN Included extra file "/etc/supervisor/conf.d/zs.conf" during parsing
+2017-05-11 07:30:11,428 INFO supervisord started with pid 1
+2017-05-11 07:30:12,434 INFO spawned: 'zendserver' with pid 8
+2017-05-11 07:30:12,438 INFO spawned: 'ehl-lu-se' with pid 9
+2017-05-11 07:30:13,441 INFO success: zendserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-05-11 07:30:13,441 INFO success: ehl-lu-se entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-05-11 07:30:19,695 CRIT reaped unknown pid 389)
+2017-05-11 07:30:19,695 CRIT reaped unknown pid 388)
+2017-05-11 07:30:21,971 CRIT reaped unknown pid 420)
+2017-05-11 07:30:21,972 CRIT reaped unknown pid 421)
+2017-05-11 07:31:28,130 INFO exited: ehl-lu-se (exit status 0; expected)
+2017-05-11 07:31:41,408 WARN received SIGTERM indicating exit request
+2017-05-11 07:31:41,408 INFO waiting for zendserver to die
+2017-05-11 07:31:42,412 INFO stopped: zendserver (terminated by SIGTERM)
+2017-05-11 07:31:55,430 CRIT Supervisor running as root (no user in config file)
+2017-05-11 07:31:55,431 WARN Included extra file "/etc/supervisor/conf.d/zs-ehl.conf" during parsing
+2017-05-11 07:31:55,431 WARN Included extra file "/etc/supervisor/conf.d/zs.conf" during parsing
+2017-05-11 07:31:55,437 INFO supervisord started with pid 1
+2017-05-11 07:31:56,439 INFO spawned: 'zendserver' with pid 8
+2017-05-11 07:31:56,441 INFO spawned: 'ehl-lu-se' with pid 9
+2017-05-11 07:31:57,444 INFO success: zendserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-05-11 07:31:57,445 INFO success: ehl-lu-se entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-05-11 07:32:03,209 CRIT reaped unknown pid 332)
+2017-05-11 07:32:03,209 CRIT reaped unknown pid 333)
+2017-05-11 07:32:05,547 CRIT reaped unknown pid 364)
+2017-05-11 07:32:05,548 CRIT reaped unknown pid 365)
+2017-05-11 07:32:14,382 CRIT reaped unknown pid 519)
+2017-05-11 07:32:14,382 CRIT reaped unknown pid 523)
+2017-05-11 07:32:14,386 CRIT reaped unknown pid 520)
+2017-05-11 07:32:14,388 CRIT reaped unknown pid 521)
+2017-05-11 07:32:14,389 CRIT reaped unknown pid 522)
+2017-05-11 07:32:14,390 CRIT reaped unknown pid 524)
+2017-05-11 07:32:14,407 CRIT reaped unknown pid 529)
+2017-05-11 07:32:15,412 CRIT reaped unknown pid 531)
+2017-05-11 07:32:33,334 CRIT reaped unknown pid 430)
+2017-05-11 07:32:35,805 CRIT reaped unknown pid 431)
+2017-05-11 07:32:36,402 CRIT reaped unknown pid 688)
+2017-05-11 07:32:36,809 CRIT reaped unknown pid 689)
+2017-05-11 07:32:37,463 CRIT reaped unknown pid 637)
+2017-05-11 07:32:41,812 CRIT reaped unknown pid 638)
+2017-05-11 07:32:42,519 CRIT reaped unknown pid 575)
+2017-05-11 07:32:44,301 CRIT reaped unknown pid 576)
+2017-05-11 07:32:58,500 INFO exited: ehl-lu-se (exit status 0; expected)
+2017-05-11 07:39:51,132 CRIT reaped unknown pid 1128)
+2017-05-11 07:39:52,874 CRIT reaped unknown pid 1129)
+2017-05-11 07:39:54,497 CRIT reaped unknown pid 470)
+2017-05-11 07:39:54,498 CRIT reaped unknown pid 1094)
+2017-05-11 07:39:54,499 CRIT reaped unknown pid 1095)
+2017-05-11 07:39:54,500 CRIT reaped unknown pid 1096)
+2017-05-11 07:41:11,075 WARN received SIGTERM indicating exit request
+2017-05-11 07:41:11,076 INFO waiting for zendserver to die
+2017-05-11 07:41:12,080 INFO stopped: zendserver (terminated by SIGTERM)
+2017-05-11 07:41:22,186 CRIT Supervisor running as root (no user in config file)
+2017-05-11 07:41:22,186 WARN Included extra file "/etc/supervisor/conf.d/zs-ehl.conf" during parsing
+2017-05-11 07:41:22,187 WARN Included extra file "/etc/supervisor/conf.d/zs.conf" during parsing
+2017-05-11 07:41:22,193 INFO supervisord started with pid 1
+2017-05-11 07:41:23,198 INFO spawned: 'zendserver' with pid 8
+2017-05-11 07:41:23,201 INFO spawned: 'ehl-lu-se' with pid 9
+2017-05-11 07:41:24,204 INFO success: zendserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-05-11 07:41:24,206 INFO success: ehl-lu-se entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-05-11 07:41:29,946 CRIT reaped unknown pid 332)
+2017-05-11 07:41:29,947 CRIT reaped unknown pid 333)
+2017-05-11 07:41:32,252 CRIT reaped unknown pid 364)
+2017-05-11 07:41:32,253 CRIT reaped unknown pid 365)
+2017-05-11 07:41:41,068 CRIT reaped unknown pid 519)
+2017-05-11 07:41:41,085 CRIT reaped unknown pid 521)
+2017-05-11 07:41:41,086 CRIT reaped unknown pid 520)
+2017-05-11 07:41:41,086 CRIT reaped unknown pid 522)
+2017-05-11 07:41:41,087 CRIT reaped unknown pid 523)
+2017-05-11 07:41:41,087 CRIT reaped unknown pid 524)
+2017-05-11 07:41:41,094 CRIT reaped unknown pid 529)
+2017-05-11 07:41:42,099 CRIT reaped unknown pid 531)
+2017-05-11 07:42:03,042 CRIT reaped unknown pid 430)
+2017-05-11 07:42:05,557 CRIT reaped unknown pid 431)
+2017-05-11 07:42:06,105 CRIT reaped unknown pid 692)
+2017-05-11 07:42:07,561 CRIT reaped unknown pid 693)
+2017-05-11 07:42:08,162 CRIT reaped unknown pid 639)
+2017-05-11 07:42:18,582 CRIT reaped unknown pid 640)
+2017-05-11 07:42:19,232 CRIT reaped unknown pid 577)
+2017-05-11 07:42:20,943 CRIT reaped unknown pid 578)
+2017-05-11 07:42:25,258 INFO exited: ehl-lu-se (exit status 0; expected)
+2017-05-11 07:48:20,199 CRIT reaped unknown pid 470)
+2017-05-11 07:48:20,199 CRIT reaped unknown pid 1055)
+2017-05-11 07:48:20,200 CRIT reaped unknown pid 1056)
+2017-05-11 07:48:20,200 CRIT reaped unknown pid 1057)
+2017-05-11 07:59:21,135 WARN received SIGTERM indicating exit request
+2017-05-11 07:59:21,135 INFO waiting for zendserver to die
+2017-05-11 07:59:22,139 INFO stopped: zendserver (terminated by SIGTERM)
+2017-05-11 08:00:07,930 CRIT Supervisor running as root (no user in config file)
+2017-05-11 08:00:07,930 WARN Included extra file "/etc/supervisor/conf.d/zs-ehl.conf" during parsing
+2017-05-11 08:00:07,930 WARN Included extra file "/etc/supervisor/conf.d/zs.conf" during parsing
+2017-05-11 08:00:07,937 INFO supervisord started with pid 1
+2017-05-11 08:00:08,939 INFO spawned: 'zendserver' with pid 8
+2017-05-11 08:00:08,943 INFO spawned: 'ehl-lu-se' with pid 9
+2017-05-11 08:00:09,952 INFO success: zendserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-05-11 08:00:09,954 INFO success: ehl-lu-se entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-05-11 08:00:14,047 WARN received SIGTERM indicating exit request
+2017-05-11 08:00:14,047 INFO waiting for zendserver, ehl-lu-se to die
+2017-05-11 08:00:15,051 INFO stopped: ehl-lu-se (terminated by SIGTERM)
+2017-05-11 08:00:15,053 INFO stopped: zendserver (terminated by SIGTERM)
+2017-05-11 08:02:57,954 CRIT Supervisor running as root (no user in config file)
+2017-05-11 08:02:57,954 WARN Included extra file "/etc/supervisor/conf.d/zs-ehl.conf" during parsing
+2017-05-11 08:02:57,955 WARN Included extra file "/etc/supervisor/conf.d/zs.conf" during parsing
+2017-05-11 08:02:57,964 INFO supervisord started with pid 1
+2017-05-11 08:02:58,966 INFO spawned: 'zendserver' with pid 8
+2017-05-11 08:02:58,968 INFO spawned: 'ehl-lu-se' with pid 9
+2017-05-11 08:02:59,973 INFO success: zendserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-05-11 08:02:59,974 INFO success: ehl-lu-se entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-05-11 08:03:02,673 CRIT reaped unknown pid 332)
+2017-05-11 08:03:02,674 CRIT reaped unknown pid 333)
+2017-05-11 08:03:04,986 CRIT reaped unknown pid 364)
+2017-05-11 08:03:04,988 CRIT reaped unknown pid 365)
+2017-05-11 08:03:13,802 CRIT reaped unknown pid 519)
+2017-05-11 08:03:13,802 CRIT reaped unknown pid 521)
+2017-05-11 08:03:13,803 CRIT reaped unknown pid 522)
+2017-05-11 08:03:13,803 CRIT reaped unknown pid 524)
+2017-05-11 08:03:13,808 CRIT reaped unknown pid 520)
+2017-05-11 08:03:13,827 CRIT reaped unknown pid 523)
+2017-05-11 08:03:13,828 CRIT reaped unknown pid 529)
+2017-05-11 08:03:14,835 CRIT reaped unknown pid 531)
+2017-05-11 08:03:35,742 CRIT reaped unknown pid 430)
+2017-05-11 08:03:38,208 CRIT reaped unknown pid 431)
+2017-05-11 08:03:38,805 CRIT reaped unknown pid 692)
+2017-05-11 08:03:40,213 CRIT reaped unknown pid 693)
+2017-05-11 08:03:40,864 CRIT reaped unknown pid 637)
+2017-05-11 08:03:51,235 CRIT reaped unknown pid 638)
+2017-05-11 08:03:51,933 CRIT reaped unknown pid 577)
+2017-05-11 08:03:53,637 CRIT reaped unknown pid 578)
+2017-05-11 08:04:07,990 INFO exited: ehl-lu-se (exit status 0; expected)
+2017-05-11 08:10:31,560 WARN received SIGTERM indicating exit request
+2017-05-11 08:10:31,562 INFO waiting for zendserver to die
+2017-05-11 08:10:32,566 INFO stopped: zendserver (terminated by SIGTERM)
+2017-05-11 08:13:55,442 CRIT Supervisor running as root (no user in config file)
+2017-05-11 08:13:55,442 WARN Included extra file "/etc/supervisor/conf.d/zs-ehl.conf" during parsing
+2017-05-11 08:13:55,443 WARN Included extra file "/etc/supervisor/conf.d/zs.conf" during parsing
+2017-05-11 08:13:55,449 INFO supervisord started with pid 1
+2017-05-11 08:13:56,452 INFO spawned: 'zendserver' with pid 9
+2017-05-11 08:13:56,454 INFO spawned: 'ehl-lu-se' with pid 10
+2017-05-11 08:13:57,456 INFO success: zendserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-05-11 08:13:57,457 INFO success: ehl-lu-se entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-05-11 08:14:03,179 CRIT reaped unknown pid 334)
+2017-05-11 08:14:03,180 CRIT reaped unknown pid 333)
+2017-05-11 08:14:05,506 CRIT reaped unknown pid 366)
+2017-05-11 08:14:05,507 CRIT reaped unknown pid 365)
+2017-05-11 08:14:14,347 CRIT reaped unknown pid 520)
+2017-05-11 08:14:14,353 CRIT reaped unknown pid 521)
+2017-05-11 08:14:14,353 CRIT reaped unknown pid 522)
+2017-05-11 08:14:14,354 CRIT reaped unknown pid 523)
+2017-05-11 08:14:14,354 CRIT reaped unknown pid 524)
+2017-05-11 08:14:14,354 CRIT reaped unknown pid 525)
+2017-05-11 08:14:14,379 CRIT reaped unknown pid 530)
+2017-05-11 08:14:15,385 CRIT reaped unknown pid 532)
+2017-05-11 08:14:35,315 CRIT reaped unknown pid 431)
+2017-05-11 08:14:37,768 CRIT reaped unknown pid 432)
+2017-05-11 08:14:38,387 CRIT reaped unknown pid 687)
+2017-05-11 08:14:39,773 CRIT reaped unknown pid 688)
+2017-05-11 08:14:40,444 CRIT reaped unknown pid 636)
+2017-05-11 08:15:01,834 CRIT reaped unknown pid 637)
+2017-05-11 08:15:02,529 CRIT reaped unknown pid 576)
+2017-05-11 08:15:04,202 CRIT reaped unknown pid 577)
+2017-05-11 08:16:06,797 INFO exited: ehl-lu-se (exit status 0; expected)
+2017-05-11 08:30:49,974 WARN received SIGTERM indicating exit request
+2017-05-11 08:30:49,975 INFO waiting for zendserver to die
+2017-05-11 08:30:50,977 INFO stopped: zendserver (terminated by SIGTERM)
+2017-05-11 08:31:03,918 CRIT Supervisor running as root (no user in config file)
+2017-05-11 08:31:03,918 WARN Included extra file "/etc/supervisor/conf.d/zs-ehl.conf" during parsing
+2017-05-11 08:31:03,919 WARN Included extra file "/etc/supervisor/conf.d/zs.conf" during parsing
+2017-05-11 08:31:03,925 INFO supervisord started with pid 1
+2017-05-11 08:31:04,927 INFO spawned: 'zendserver' with pid 9
+2017-05-11 08:31:04,930 INFO spawned: 'ehl-lu-se' with pid 10
+2017-05-11 08:31:05,936 INFO success: zendserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-05-11 08:31:05,937 INFO success: ehl-lu-se entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-05-11 08:31:08,664 WARN received SIGTERM indicating exit request
+2017-05-11 08:31:08,665 INFO waiting for zendserver, ehl-lu-se to die
+2017-05-11 08:31:09,667 INFO stopped: ehl-lu-se (terminated by SIGTERM)
+2017-05-11 08:31:09,669 INFO stopped: zendserver (terminated by SIGTERM)
+2017-05-11 08:31:22,667 CRIT Supervisor running as root (no user in config file)
+2017-05-11 08:31:22,668 WARN Included extra file "/etc/supervisor/conf.d/zs-ehl.conf" during parsing
+2017-05-11 08:31:22,668 WARN Included extra file "/etc/supervisor/conf.d/zs.conf" during parsing
+2017-05-11 08:31:22,673 INFO supervisord started with pid 1
+2017-05-11 08:31:23,677 INFO spawned: 'zendserver' with pid 9
+2017-05-11 08:31:23,681 INFO spawned: 'ehl-lu-se' with pid 10
+2017-05-11 08:31:24,401 CRIT reaped unknown pid 333)
+2017-05-11 08:31:24,401 CRIT reaped unknown pid 334)
+2017-05-11 08:31:25,406 INFO success: zendserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-05-11 08:31:25,407 INFO success: ehl-lu-se entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-05-11 08:31:26,755 CRIT reaped unknown pid 365)
+2017-05-11 08:31:26,756 CRIT reaped unknown pid 366)
+2017-05-11 08:31:35,601 CRIT reaped unknown pid 520)
+2017-05-11 08:31:35,602 CRIT reaped unknown pid 521)
+2017-05-11 08:31:35,605 CRIT reaped unknown pid 523)
+2017-05-11 08:31:35,610 CRIT reaped unknown pid 522)
+2017-05-11 08:31:35,612 CRIT reaped unknown pid 524)
+2017-05-11 08:31:35,614 CRIT reaped unknown pid 525)
+2017-05-11 08:31:35,622 CRIT reaped unknown pid 530)
+2017-05-11 08:31:36,628 CRIT reaped unknown pid 532)
+2017-05-11 08:31:56,505 CRIT reaped unknown pid 431)
+2017-05-11 08:31:58,981 CRIT reaped unknown pid 432)
+2017-05-11 08:31:59,569 CRIT reaped unknown pid 687)
+2017-05-11 08:32:00,983 CRIT reaped unknown pid 688)
+2017-05-11 08:32:01,626 CRIT reaped unknown pid 636)
+2017-05-11 08:32:02,990 CRIT reaped unknown pid 637)
+2017-05-11 08:32:03,684 CRIT reaped unknown pid 576)
+2017-05-11 08:32:05,431 CRIT reaped unknown pid 577)
+2017-05-11 08:32:31,012 CRIT reaped unknown pid 471)
+2017-05-11 08:32:31,013 CRIT reaped unknown pid 1035)
+2017-05-11 08:32:31,013 CRIT reaped unknown pid 1036)
+2017-05-11 08:32:31,014 CRIT reaped unknown pid 1037)
+2017-05-11 08:32:34,873 INFO exited: ehl-lu-se (exit status 0; expected)
+2017-05-12 06:33:08,919 CRIT Supervisor running as root (no user in config file)
+2017-05-12 06:33:08,919 WARN Included extra file "/etc/supervisor/conf.d/zs-ehl.conf" during parsing
+2017-05-12 06:33:08,919 WARN Included extra file "/etc/supervisor/conf.d/zs.conf" during parsing
+2017-05-12 06:33:08,925 INFO supervisord started with pid 1
+2017-05-12 06:33:09,927 INFO spawned: 'zendserver' with pid 9
+2017-05-12 06:33:09,930 INFO spawned: 'ehl-lu-se' with pid 10
+2017-05-12 06:33:10,938 INFO success: zendserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-05-12 06:33:10,939 INFO success: ehl-lu-se entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-05-12 06:33:16,592 CRIT reaped unknown pid 390)
+2017-05-12 06:33:16,592 CRIT reaped unknown pid 391)
+2017-05-12 06:33:18,842 CRIT reaped unknown pid 422)
+2017-05-12 06:33:18,843 CRIT reaped unknown pid 423)
+2017-05-12 06:34:17,422 CRIT reaped unknown pid 530)
+2017-05-12 06:34:17,423 CRIT reaped unknown pid 535)
+2017-05-12 06:34:17,423 CRIT reaped unknown pid 536)
+2017-05-12 06:34:21,291 INFO exited: ehl-lu-se (exit status 0; expected)
+2017-05-12 06:51:20,825 WARN received SIGTERM indicating exit request
+2017-05-12 06:51:20,826 INFO waiting for zendserver to die
+2017-05-12 06:51:21,837 INFO stopped: zendserver (terminated by SIGTERM)
+2017-05-12 06:51:33,090 CRIT Supervisor running as root (no user in config file)
+2017-05-12 06:51:33,090 WARN Included extra file "/etc/supervisor/conf.d/zs-ehl.conf" during parsing
+2017-05-12 06:51:33,091 WARN Included extra file "/etc/supervisor/conf.d/zs.conf" during parsing
+2017-05-12 06:51:33,098 INFO supervisord started with pid 1
+2017-05-12 06:51:34,101 INFO spawned: 'zendserver' with pid 9
+2017-05-12 06:51:34,104 INFO spawned: 'ehl-lu-se' with pid 10
+2017-05-12 06:51:35,108 INFO success: zendserver entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-05-12 06:51:35,109 INFO success: ehl-lu-se entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-05-12 06:51:40,662 CRIT reaped unknown pid 391)
+2017-05-12 06:51:40,663 CRIT reaped unknown pid 390)
+2017-05-12 06:51:42,909 CRIT reaped unknown pid 423)
+2017-05-12 06:51:43,911 CRIT reaped unknown pid 422)
+2017-05-12 06:52:39,933 CRIT reaped unknown pid 530)
+2017-05-12 06:52:39,933 CRIT reaped unknown pid 535)
+2017-05-12 06:52:39,935 CRIT reaped unknown pid 536)
+2017-05-12 06:52:43,796 INFO exited: ehl-lu-se (exit status 0; expected)
+2017-05-12 08:47:56,462 WARN received SIGTERM indicating exit request
+2017-05-12 08:47:56,462 INFO waiting for zendserver to die
+2017-05-12 08:47:57,465 INFO stopped: zendserver (terminated by SIGTERM)

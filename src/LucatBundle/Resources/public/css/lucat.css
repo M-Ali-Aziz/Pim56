@@ -1,0 +1,15 @@
+.lucatsyncbtn_menu_icon {
+	background-image: url(/bundles/pimcoreadmin/img/flat-color-icons/synchronize.svg) !important;
+}
+
+.lucatsyncbtn_check_panel_icon {
+	background-image: url(/bundles/pimcoreadmin/img/flat-color-icons/synchronize.svg) !important;
+}
+
+#pimcore_menu_person {
+	background-image: url(/bundles/pimcoreadmin/img/flat-color-icons/conference_call.svg) !important;
+}
+
+.pimcore_icon_person {
+	background-image: url(/bundles/pimcoreadmin/img/icon/group.png) !important;
+}

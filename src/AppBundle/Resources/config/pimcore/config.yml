@@ -1,0 +1,3 @@
+pimcore:
+  translations:
+    case_insensitive: true

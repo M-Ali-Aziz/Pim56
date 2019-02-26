@@ -1,0 +1,161 @@
+services:
+    # default configuration for services in *this* file
+    _defaults:
+        # automatically injects dependencies in your services
+        autowire: true
+        # automatically registers your services as commands, event subscribers, etc.
+        autoconfigure: true
+        # this means you cannot fetch services directly from the container via $container->get()
+        # if you need to do this, you can override this setting on individual services
+        public: false
+
+    # makes classes in src/AppBundle available to be used as services
+    # this creates a service per class whose id is the fully-qualified class name
+    AppBundle\:
+        resource: '../../../AppBundle/*'
+        # you can exclude directories or files
+        # but if a service is unused, it's removed anyway
+        exclude: '../../../AppBundle/{Entity,Repository}'
+
+    # controllers are imported separately to make sure they're public
+    # and have a tag that allows actions to type-hint services
+    AppBundle\Controller\:
+        resource: '../../Controller'
+        public: true
+        tags: ['controller.service_arguments']
+
+# add more services, or override services that need manual wiring
+#    AppBundle\ExampleClass:
+#        arguments:
+#            - "@service_id"
+#            - "plain_value"
+#            - "%parameter%"
+
+    # --- OptionsProvider -----------------------------------------------
+    # Lokal OptionsProvider for Evant-object 
+    Appbundle.website.optionsprovider.lokal:
+        class: AppBundle\Website\OptionsProvider\Lokal
+        public: true
+
+    # --- Areabrick -----------------------------------------------
+    # specify the EventlistMain brick ID manually      
+    AppBundle\Document\Areabrick\EventlistMain:
+        arguments: ['@logger']
+        tags:
+            - { name: pimcore.area.brick, id: eventlistMain }
+
+    # specify the EventlistVertical brick ID manually      
+    AppBundle\Document\Areabrick\EventlistVertical:
+        arguments: ['@logger']
+        tags:
+            - { name: pimcore.area.brick, id: eventlistVertical }
+
+    # specify the NewsMain brick ID manually      
+    AppBundle\Document\Areabrick\NewsMain:
+        arguments: ['@logger']
+        tags:
+            - { name: pimcore.area.brick, id: newsMain }
+
+    # specify the NewsVertical brick ID manually      
+    AppBundle\Document\Areabrick\NewsVertical:
+        arguments: ['@logger']
+        tags:
+            - { name: pimcore.area.brick, id: newsVertical }
+
+
+    # --- Templating helper ----------------------------------------
+    # Address custom templating helper
+    AppBundle\Templating\Helper\Address:
+        public: true
+        tags:
+           - { name: templating.helper, alias: address }
+
+    # CalendarEventDate custom templating helper
+    AppBundle\Templating\Helper\CalendarEventDate:
+        public: true
+        tags:
+           - { name: templating.helper, alias: calendarEventDate }
+
+    # CommaSeparatedValues custom templating helper
+    AppBundle\Templating\Helper\CommaSeparatedValues:
+        public: true
+        tags:
+           - { name: templating.helper, alias: commaSeparatedValues }
+
+    # DepartmentName custom templating helper
+    AppBundle\Templating\Helper\DepartmentName:
+        public: true
+        tags:
+           - { name: templating.helper, alias: departmentName }
+
+    # DisplayImage custom templating helper
+    AppBundle\Templating\Helper\DisplayImage:
+        public: true
+        tags:
+           - { name: templating.helper, alias: displayImage }
+
+    # LanguageSelector custom templating helper
+    AppBundle\Templating\Helper\LanguageSelector:
+        public: true
+        tags:
+           - { name: templating.helper, alias: languageSelector }
+
+    # Meta custom templating helper
+    AppBundle\Templating\Helper\Meta:
+        public: true
+        tags:
+           - { name: templating.helper, alias: meta }
+
+    # PageLastUpdated custom templating helper
+    AppBundle\Templating\Helper\PageLastUpdated:
+        public: true
+        tags:
+           - { name: templating.helper, alias: pageLastUpdated }
+
+    # PageManager custom templating helper
+    AppBundle\Templating\Helper\PageManager:
+        public: true
+        tags:
+           - { name: templating.helper, alias: pageManager }
+
+    # PhoneNumber custom templating helper
+    AppBundle\Templating\Helper\PhoneNumber:
+        public: true
+        tags:
+           - { name: templating.helper, alias: phoneNumber }
+
+    # Publication custom templating helper
+    AppBundle\Templating\Helper\Publication:
+        public: true
+        tags:
+           - { name: templating.helper, alias: publication }
+
+    # ResearchArea custom templating helper
+    AppBundle\Templating\Helper\ResearchArea:
+        public: true
+        tags:
+           - { name: templating.helper, alias: researchArea }
+
+    # Staff custom templating helper
+    AppBundle\Templating\Helper\Staff:
+        public: true
+        tags:
+           - { name: templating.helper, alias: staff }
+
+    # Summary custom templating helper
+    AppBundle\Templating\Helper\Summary:
+        public: true
+        tags:
+           - { name: templating.helper, alias: summary }
+
+    # Dropdown custom templating helper
+    AppBundle\Templating\Helper\Navigation\Dropdown:
+        public: true
+        tags:
+           - { name: templating.helper, alias: dropdown }
+
+    # HamburgerMenu custom templating helper
+    AppBundle\Templating\Helper\Navigation\HamburgerMenu:
+        public: true
+        tags:
+           - { name: templating.helper, alias: hamburgerMenu }

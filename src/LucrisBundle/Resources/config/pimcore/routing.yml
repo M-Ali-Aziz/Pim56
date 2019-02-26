@@ -1,0 +1,5 @@
+lucris:
+    resource: "@LucrisBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

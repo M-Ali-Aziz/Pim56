@@ -1,0 +1,5 @@
+# created by build 54 - see https://github.com/pimcore/pimcore/issues/1467
+pimcore:
+    documents:
+        editables:
+            naming_strategy: nested
