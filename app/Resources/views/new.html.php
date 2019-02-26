@@ -52,6 +52,8 @@
         </script>
         <script type="text/javascript" src="//www.browsealoud.com/plus/scripts/ba.js"></script>
     <?php endif; ?>
+
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,600" rel="stylesheet">
 </head>
 <body>
 
